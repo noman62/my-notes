@@ -1,0 +1,112 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+nav {
+  box-shadow: 2px 2px 5px rgb(223, 190, 255);
+}
+
+nav .log-button {
+  color: rgb(110, 38, 178);
+}
+
+nav .nav-link {
+  color: rgb(110, 38, 178) !important;
+}
+
+nav .button {
+  background-color: rgb(110, 38, 178);
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.create-button {
+  background-color: rgb(110, 38, 178);
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.navbar-brand {
+  color: rgb(110, 38, 178) !important;
+  font-size: 25px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.item-crud {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.crud-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.item-table th,
+.item-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.action-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.view-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.update-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.action-button:hover {
+  background-color: #34495e;
+}
+
+@media (max-width: 768px) {
+  .item-table {
+    font-size: 14px;
+  }
+
+  .action-button {
+    font-size: 10px;
+  }
+}
